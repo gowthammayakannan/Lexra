@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <!-- Background rounded square -->
+  <rect width="32" height="32" rx="8" fill="url(#g1)"/>
+  <!-- Scale/balance icon -->
+  <!-- Center pole -->
+  <rect x="15.5" y="8" width="1" height="16" rx="0.5" fill="white"/>
+  <!-- Top bar -->
+  <rect x="8" y="9" width="16" height="1.5" rx="0.75" fill="white"/>
+  <!-- Left pan string -->
+  <line x1="10" y1="10.5" x2="10" y2="17" stroke="white" stroke-width="1" stroke-linecap="round"/>
+  <!-- Right pan string -->
+  <line x1="22" y1="10.5" x2="22" y2="17" stroke="white" stroke-width="1" stroke-linecap="round"/>
+  <!-- Left pan -->
+  <path d="M7 17 Q10 20 13 17" stroke="white" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <!-- Right pan -->
+  <path d="M19 17 Q22 20 25 17" stroke="white" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <!-- Base -->
+  <rect x="13" y="23.5" width="6" height="1.5" rx="0.75" fill="white" opacity="0.9"/>
+</svg>
