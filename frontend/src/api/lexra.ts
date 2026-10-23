@@ -1,7 +1,7 @@
 export type ToastType = "success" | "error" | "info"
 import axios from "axios"
 
-const BASE = "/api"
+const BASE = import.meta.env.VITE_API_URL || "/api"
 
 const getHeaders = () => {
   const token = localStorage.getItem("lexra_token")
