@@ -49,7 +49,7 @@ User Query → Hybrid Search (Semantic + BM25 + RRF Reranking)
 | Backend | Python, FastAPI, SQLite |
 | Vector DB | ChromaDB |
 | Search | sentence-transformers, rank-bm25 |
-| AI | Groq API (Qwen 3.8B), |
+| AI | Groq API (Qwen 3.8B) |
 | Frontend | React, TypeScript, Vite, Tailwind, Framer Motion |
 | Auth | JWT + Google OAuth |
 | DevOps | Docker, docker-compose |
