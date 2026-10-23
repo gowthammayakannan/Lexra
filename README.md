@@ -87,7 +87,6 @@ Open `http://localhost:5173`
 **Backend `.env`:**
 ```
 GROQ_API_KEY=your_groq_key
-GEMINI_API_KEY=your_gemini_key (optional fallback)
 SECRET_KEY=your_jwt_secret
 CHROMA_PERSIST_DIR=./data/chroma_db
 DATABASE_URL=sqlite:///./data/lexra.db
